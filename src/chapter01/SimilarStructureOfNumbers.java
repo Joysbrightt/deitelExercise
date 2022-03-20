@@ -29,25 +29,16 @@ public class SimilarStructureOfNumbers {
         System.out.println("This is a palindrome");
     }
 
-    public class age {
-        public int StudentAge;
-        int age = 0;
-        int ageCounter;
-
-
-       while (age <=20){
-            ageCounter = ageCounter + 1;
-            age = age + 1;
-        }
-    }
-
-
-
-
-
-
-
-
-
+//    public class age {
+//        public int StudentAge;
+//        int age = 0;
+//        int ageCounter;
+//
+//
+//       while (age <=20){
+//            ageCounter = ageCounter + 1;
+//            age = age + 1;
+//        }
+//    }
     }
 }

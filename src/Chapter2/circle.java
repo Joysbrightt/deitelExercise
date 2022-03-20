@@ -1,3 +1,5 @@
+package Chapter2;
+
 import java.util.Scanner;
 
 public class circle{
@@ -6,37 +8,21 @@ public class circle{
 public static void main(String [] args){
 
     Scanner input = new Scanner(System.in);
-    double = input.nextdouble();
+    double r;
+System.out.print("Enter the number of radius: ");
+r = input.nextDouble();
 
-System.out.print("Enter the number of radius");
-double r = input.nextDouble();
-
-double diameter = ("r * 2");
-double area = ((radius * radius) * MATH.PI);
-double circumference = ( 2 * MATH.PI * radius);
-
-System.out.printf( %d%n\n, %d%n/n, %d%n/n , radius diameter circumference);
-
-
+double diameter =r * 2;
+double area = ((r * r) * Math.PI);
+double circumference = ( 2 * Math.PI * r);
+    System.out.println("diameter " +diameter);
+    System.out.println("area " +area);
+    System.out.println("circumference " +circumference);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+System.out.printf("%.1f%n %.1f%n %.1f%n %.1f%n ", r, area, diameter,circumference );
 
 }
-
 
 
 }

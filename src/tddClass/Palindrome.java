@@ -6,23 +6,22 @@ public class Palindrome {
         int numb;
         System.out.println("Enter a digit");
         numb = input.nextInt();
-
-        int numb1;
-        System.out.println("Enter a digit");
-        numb1 = input.nextInt();
-
-        int numb2;
-        System.out.println("Enter a digit");
-        numb2 = input.nextInt();
-
-        if (numb == numb2) {
-            System.out.println("This is a palindrome");
+        int rem;
+        int track = 1;
+        int temp = numb;
+        for (int i = 0; i<5;i++){
+            rem = numb%10;
+            track = track*10/rem;
+            numb=temp/10;
+            System.out.println(numb);
+            System.out.println(temp);
+            System.out.println(track);
         }
-        if (numb != numb2) {
-            System.out.println("This is not palindrome");
+        if (temp == numb){
+            System.out.println("True");
+        }else {
+            System.out.println("False");
         }
-
-
     }
 
 }

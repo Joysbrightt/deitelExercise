@@ -1,3 +1,5 @@
+package Chapter2;
+
 import java.util.Scanner;
 
 public class Difference{
@@ -7,26 +9,21 @@ public class Difference{
 
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Enter the firstNumber");
-       int = input.nextInt();
+    System.out.print("Enter the firstNumber: ");
+       int numb1 = input.nextInt();
 
 
-    System.out.print("Enter the secondNumber");
-    int = input.nextInt();
+    System.out.print("Enter the secondNumber: ");
+        int numb2= input.nextInt();
 
-    System.out.print( FirstNumber *  FirstNumber);
-    int = input.nextInt;
+        int numbValue =numb1 *  numb1;
 
-    System.out.print( SecondNumber * secondNumber);
-    int = input.nextInt();
+        int numbValue2 =numb2 * numb2;
 
-    int sum = (( FirstNumber *  FirstNumber) + (SecondNumber * secondNumber));
-    System.out.print("sum" (( FirstNumber *  FirstNumber) + (SecondNumber * secondNumber)) +sum );
-    int = input.nextInt();
-
-    int difference = ( ( FirstNumber *  FirstNumber) - (SecondNumber * secondNumber));
-    System.out.print("difference" ( FirstNumber *  FirstNumber) - (SecondNumber * secondNumber) +difference);
-    int = input.nextInt();
+    int sum = ( numbValue + numbValue2);
+    int difference = ( numbValue - numbValue2);
+    System.out.println("difference " +difference);
+        System.out.println("sum " +sum);
 
 
 

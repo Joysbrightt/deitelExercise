@@ -1,18 +1,22 @@
 package tddClass;
 
 public class Account {
-    private String name;
-    private String setName;
-    private String getName;
-    Account account = new Account();
+    private static String name;
+    private int accountNumber;
 
-    public void setName(){
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getName(){
-        this.name = name;
-        return name;
+    public Account() {
+        accountNumber = 1;
+    }
 
+    public int getAccountNumber() {
+        return accountNumber;
     }
 }

@@ -1,20 +1,22 @@
-/*package tddClass;
+package tddClass;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class AccountTest {
-
-    public void AccountNameTest(){
-        AccountName account = accountName;
-        acount.setName();
-
-            assertTrue(name, account.getName);
-        }
+class AccountTest {
+    @Test
+    public void AccountNameTest() {
+        Account account = new Account();
+        account.setName("Tomisin Johnson");
+        assertEquals("Tomisin Johnson", account.getName());
 
     }
 
+    @Test
+    public void AccountingTest() {
+        Account myAccount = new Account();
+        assertEquals(1, myAccount.getAccountNumber());
+
+    }
 }
-*/
