@@ -2,7 +2,50 @@ package ChapterSix;
 
 import java.util.Scanner;
 
-public class Native {
+public class NativeNumber {
+    private  int  firstNumber;
+    private int secondNumber;
+
+    public boolean creating(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter two numbers: ");
+        firstNumber = scanner.nextInt();
+        secondNumber = scanner.nextInt();
+
+        if (secondNumber % firstNumber == 0){
+            System.out.println("firstNumber is a multiple of secondNumber");
+            return true;
+        }
+        else{
+            System.out.println("false");
+        }
+
+        return false;
+    }
+
+    public static void creatingMethods() {
+
+    }
+
+    public int tomisinValue() {
+
+
+        int tomisin = 0;
+        return tomisin;
+    }
+    public static void main(String[] args) {
+        NativeNumber multiple = new NativeNumber();
+        multiple.creating();
+
+
+
+//        NativeNumber number = new NativeNumber();
+//
+////        creatingMethods();
+//        number.tomisinValue();
+
+    }
+}
 //    private static int acTempertature;
 //    private String name;
 //    private int age;
@@ -43,4 +86,6 @@ public class Native {
 //    public static final int age AGE_AT_DEATH =50;
 //    private String datOfBirth;
 //    private day dayOfBirth (enum is used to change the dayOfBirth to constant)
-}
+
+
+

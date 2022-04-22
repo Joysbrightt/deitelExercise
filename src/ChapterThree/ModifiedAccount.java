@@ -44,12 +44,11 @@ public class ModifiedAccount {
             balance += depositAmount;
         }
     }
-     public void Withdrawal(){
-        if(balance != 100){
-
-            double depositAmount = 0;
-            balance += depositAmount;
-        }else{
+     public void Withdrawal(double withdrawalAmount){
+        if(balance > withdrawalAmount){
+//            withdrawalAmount = 0;
+            balance -= withdrawalAmount;
+        } else if (balance < withdrawalAmount){
 
             System.out.println("Withdrawal amount exceeded account balance.");
         }

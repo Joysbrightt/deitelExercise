@@ -10,7 +10,7 @@ public class Myers_BriggsQuestionanire {
         int countB1 = 0;
         int countA2 = 0;
         int countB2 = 0;
-        int countA3 =0 ;
+        int countA3 = 0 ;
         int countB3 = 0;
         int countA4 = 0;
         int countB4 = 0;
