@@ -102,8 +102,9 @@ public class HealthProfile {
     }
 
     public int calculateMaxHeartRate(int heartRate){
-        heartRate = 220 - userAge();
+        heartRate = (int) ((int) getHeight() * (getHeight() * 2));
 
+//        heartRate = (Weight in Kg) / (Height in Meters * Height in Meters;
         return heartRate;
     }
 

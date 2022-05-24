@@ -1,11 +1,12 @@
 package Practice;
 
+import StudentGradePractice;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SudentGradePracticeTest {
+class  SudentGradePracticeTest {
 //    StudentGradePractice report;
 //    @BeforeEach
 //   public void  startWith(){

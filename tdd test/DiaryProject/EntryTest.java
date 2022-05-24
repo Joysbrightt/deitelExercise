@@ -1,5 +1,6 @@
 package DiaryProject;
 
+import Assignment.DiaryProject.Entry;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

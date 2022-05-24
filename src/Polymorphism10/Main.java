@@ -14,13 +14,16 @@ public class Main {
             animal.move();
 
         }
-
+// rabbit is an object of class Rabbit
         Rabbit rabbit = new Rabbit();
 
+//        rabbit2 is an object of class Rabbit stored in superClass Animal
         Animal rabbit2 = new Rabbit();
 
+//        rabbit3 is an object of class Rabbit stored in superClass Animal
         Animal rabbit3 = new Rabbit();
 
+//        rabbit4 is an object of class Rabbit
         Rabbit rabbit4 = (Rabbit) new Rabbit();
 
     }

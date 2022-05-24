@@ -9,7 +9,7 @@ public class PapaNosa {
         this.pray = pray;
     }
 
-    public  void pray(){
+    public void pray(){
         this.pray.pray();
     }
 
